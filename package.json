@@ -1,0 +1,32 @@
+{
+  "name": "@web-bee-ru/prettier-config",
+  "version": "0.1.0",
+  "description": "Webbee prettier config for projects",
+  "homepage": "https://github.com/JstUsername/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/JstUsername/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JstUsername/prettier-config.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "dev@web-bee.ru",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "peerDependencies": {
+    "@trivago/prettier-plugin-sort-imports": ">=3.0.0",
+    "prettier": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "prettier": "^3.7.4",
+    "standard-version": "^9.5.0"
+  }
+}
